@@ -1,8 +1,8 @@
 # 2020
-# The AellyX Toolkit was programmed and developed by Taguar258.
+# The AellyX Toolkit was programmed and developed by anonAELLY.
 # The AellyX Toolkit is published under the MIT Licence.
 # The AellyX Toolkit is based on the CLIF-Framework.
-# The CLIF-Framework is programmed and developed by Taguar258.
+# The CLIF-Framework is programmed and developed by anonAELLY.
 # The CLIF-Framework is published under the MIT Licence.
 
 from os import chdir, path, system
@@ -98,8 +98,8 @@ class Main:
                                                        ./"                       
                                                       ~`                         
 
-C_BoStress-Testing-Toolkit by Taguar258 (c) | MIT 2020
-Based on the CLIF Framework by Taguar258 (c) | MIT 2020C_W
+C_BoStress-Testing-Toolkit by anonAELLY (c) | MIT 2020
+Based on the CLIF Framework by anonAELLY (c) | MIT 2020C_W
 
 BY USING THIS SOFTWARE, YOU MUST AGREE TO TAKE FULL RESPONSIBILITY
 FOR ANY DAMAGE CAUSED BY AELLYX.
@@ -351,7 +351,7 @@ C_Bo-----------------------------------------------------------C_W""")
 	def upgrade():
 		try:
 			chdir("/tmp")
-			system("sudo git clone https://github.com/Taguar258/AellyX.git")
+			system("sudo git clone https://github.com/anonAELLY/AellyX.git")
 			chdir("/tmp/AellyX/")
 			system("sudo bash ./install_to_bin.sh")
 			print("[i] Deleting the temporary stored AellyX...")

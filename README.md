@@ -1,6 +1,6 @@
 # AellyX Toolkit
 
-<img src="https://img.shields.io/badge/Python-3.8-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"> <a href="https://taguar258.github.io/AellyX/INSTALLATION"><img src="https://img.shields.io/badge/Download-Now-green"></a>
+<img src="https://img.shields.io/badge/Python-3.8-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"> <a href="https://anonaelly.github.io/AellyX/INSTALLATION"><img src="https://img.shields.io/badge/Download-Now-green"></a>
 
 **AellyX is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python(3.8).**
 
@@ -29,19 +29,19 @@ _I archived this repository because I currently do not want to work on it._
 Just enter the following line to install AellyX on Linux.
 
 ```bash
-curl -s https://raw.githubusercontent.com/Taguar258/AellyX/master/install.sh | sudo bash -s
+curl -s https://raw.githubusercontent.com/anonAELLY/AellyX/master/install.sh | sudo bash -s
 ```
 
-<a style="color: grey" href="https://taguar258.github.io/AellyX/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
+<a style="color: grey" href="https://anonaelly.github.io/AellyX/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
 
 
-<a style="color: grey" href="https://github.com/Taguar258/AellyX/blob/master/README.md#info-and-warning"><b>Terms of Use</b></a>
+<a style="color: grey" href="https://github.com/anonAELLY/AellyX/blob/master/README.md#info-and-warning"><b>Terms of Use</b></a>
 
-<a style="color: grey" href="https://github.com/Taguar258/AellyX/blob/master/LICENSE">Licence</a>
+<a style="color: grey" href="https://github.com/anonAELLY/AellyX/blob/master/LICENSE">Licence</a>
 
-<a style="color: grey" href="https://github.com/Taguar258/AellyX/projects/1">Project status/ToDo</a>
+<a style="color: grey" href="https://github.com/anonAELLY/AellyX/projects/1">Project status/ToDo</a>
 
-<a style="color: grey" href="https://github.com/Taguar258/CLIF/">CLIF Framework</a>
+<a style="color: grey" href="https://github.com/anonAELLY/CLIF/">CLIF Framework</a>
 
 ## What module to use
 
@@ -83,7 +83,7 @@ When run, you will receive a URL that you can connect to when executing the `ddo
 
 ## Info and Warning
 
-__THE CREATOR (Taguar258) OF THE AELLYX TOOLKIT DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED. THE USER ALONE IS RESPONSIBLE, BE IT: ABUSING AELLYX TO FIT ILLEGAL PURPOSES OR ACCIDENTAL DAMAGE CAUSED BY AELLYX.
+__THE CREATOR (anonAELLY) OF THE AELLYX TOOLKIT DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED. THE USER ALONE IS RESPONSIBLE, BE IT: ABUSING AELLYX TO FIT ILLEGAL PURPOSES OR ACCIDENTAL DAMAGE CAUSED BY AELLYX.
 THE CREATOR DID NOT INTEND AELLYX AS A TOOL FOR ILLEGAL PURPOSES AND THEREFORE DOES NOT SUPPORT ANY ILLEGAL ABUSE OF THIS TOOL.
 BY USING THIS SOFTWARE, YOU MUST AGREE TO TAKE FULL RESPONSIBILITY FOR DAMAGE CAUSED BY AELLYX IN ANY WAY ON YOUR OWN.
 THE CREATOR DOES NOT WANT PEOPLE TO USE AELLYX IF THEY DO NOT HAVE EXPERIENCE WITH THE ATTACKS INCLUDED.
@@ -98,5 +98,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.__
 
-**MIT Taguar258 2020**
+**MIT anonAELLY 2020**
 
