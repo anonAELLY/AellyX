@@ -1,6 +1,6 @@
 # AellyX Toolkit
 
-<img src="https://img.shields.io/badge/Python-3.8-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"> <a href="https://taguar258.github.io/Raven-Storm/INSTALLATION"><img src="https://img.shields.io/badge/Download-Now-green"></a>
+<img src="https://img.shields.io/badge/Python-3.8-blue"> <img src="https://img.shields.io/badge/Status-Beta-orange"> <img src="https://img.shields.io/badge/Version-4-red"> <img src="https://img.shields.io/badge/Licence-MIT-yellowgreen"> <a href="https://taguar258.github.io/AellyX/INSTALLATION"><img src="https://img.shields.io/badge/Download-Now-green"></a>
 
 **AellyX is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python(3.8).**
 
@@ -18,28 +18,28 @@ _I archived this repository because I currently do not want to work on it._
 
 ## What makes it different
 
-- [x] Raven-Storm includes tools for creating shorcuts and working more efficiently.
+- [x] AellyX includes tools for creating shorcuts and working more efficiently.
 - [x] Raven is **Effective** and **powerful** in shutting down hosts and servers.
-- [x] **Testing** and understanding are the goals of Raven-Storm.
+- [x] **Testing** and understanding are the goals of AellyX.
 - [x] Raven lets you connects clients together to create a botnet.
 - [x] Features different protocols such as UDP/TCP, ICMP, HTTP, L2CAP, ARP and IEEE.
 
 ## Installation
 
-Just enter the following line to install Raven-Storm on Linux.
+Just enter the following line to install AellyX on Linux.
 
 ```bash
-curl -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.sh | sudo bash -s
+curl -s https://raw.githubusercontent.com/Taguar258/AellyX/master/install.sh | sudo bash -s
 ```
 
-<a style="color: grey" href="https://taguar258.github.io/Raven-Storm/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
+<a style="color: grey" href="https://taguar258.github.io/AellyX/INSTALLATION"><b>Click here for the more detailed installation guide.</b></a>
 
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/README.md#info-and-warning"><b>Terms of Use</b></a>
+<a style="color: grey" href="https://github.com/Taguar258/AellyX/blob/master/README.md#info-and-warning"><b>Terms of Use</b></a>
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/blob/master/LICENSE">Licence</a>
+<a style="color: grey" href="https://github.com/Taguar258/AellyX/blob/master/LICENSE">Licence</a>
 
-<a style="color: grey" href="https://github.com/Taguar258/Raven-Storm/projects/1">Project status/ToDo</a>
+<a style="color: grey" href="https://github.com/Taguar258/AellyX/projects/1">Project status/ToDo</a>
 
 <a style="color: grey" href="https://github.com/Taguar258/CLIF/">CLIF Framework</a>
 
@@ -73,22 +73,22 @@ _Try using the L4 attack if L7 fails._
 _You probably already know the difference between DoS and DDoS:_
 _A DoS Attack is run by a single Maschine and a DDoS Attack by multiple._
 
-_But how do we perform a DDoS Attack using Raven-Storm?_
+_But how do we perform a DDoS Attack using AellyX?_
 
 
-To connect multiple instances of Raven-Storm, you will then need to open a host.
+To connect multiple instances of AellyX, you will then need to open a host.
 Just execute the command `server` and define a custom password to prevent others from interfering.
 When run, you will receive a URL that you can connect to when executing the `ddos` command.
 
 
 ## Info and Warning
 
-__THE CREATOR (Taguar258) OF THE RAVEN-STORM TOOLKIT DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED. THE USER ALONE IS RESPONSIBLE, BE IT: ABUSING RAVEN-STORM TO FIT ILLEGAL PURPOSES OR ACCIDENTAL DAMAGE CAUSED BY RAVEN-STORM.
-THE CREATOR DID NOT INTEND RAVEN-STORM AS A TOOL FOR ILLEGAL PURPOSES AND THEREFORE DOES NOT SUPPORT ANY ILLEGAL ABUSE OF THIS TOOL.
-BY USING THIS SOFTWARE, YOU MUST AGREE TO TAKE FULL RESPONSIBILITY FOR DAMAGE CAUSED BY RAVEN-STORM IN ANY WAY ON YOUR OWN.
-THE CREATOR DOES NOT WANT PEOPLE TO USE RAVEN-STORM IF THEY DO NOT HAVE EXPERIENCE WITH THE ATTACKS INCLUDED.
+__THE CREATOR (Taguar258) OF THE AELLYX TOOLKIT DOES NOT TAKE ANY RESPONSIBILITY FOR DAMAGE CAUSED. THE USER ALONE IS RESPONSIBLE, BE IT: ABUSING AELLYX TO FIT ILLEGAL PURPOSES OR ACCIDENTAL DAMAGE CAUSED BY AELLYX.
+THE CREATOR DID NOT INTEND AELLYX AS A TOOL FOR ILLEGAL PURPOSES AND THEREFORE DOES NOT SUPPORT ANY ILLEGAL ABUSE OF THIS TOOL.
+BY USING THIS SOFTWARE, YOU MUST AGREE TO TAKE FULL RESPONSIBILITY FOR DAMAGE CAUSED BY AELLYX IN ANY WAY ON YOUR OWN.
+THE CREATOR DOES NOT WANT PEOPLE TO USE AELLYX IF THEY DO NOT HAVE EXPERIENCE WITH THE ATTACKS INCLUDED.
 EVERY ATTACK WILL CAUSE TEMPORARY DAMAGE, BUT LONG-TERM DAMAGE IS DEFFINITIFLY POSSIBLE.
-RAVEN-STORM SHOULD NOT SUGGEST PEOPLE TO PERFORM ILLEGAL ACTIVITIES.__
+AELLYX SHOULD NOT SUGGEST PEOPLE TO PERFORM ILLEGAL ACTIVITIES.__
 
 __THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

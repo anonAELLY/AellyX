@@ -1,7 +1,7 @@
 # 2020
-# The Raven-Storm Toolkit was programmed and developed by Taguar258.
-# The Raven-Storm Toolkit is published under the MIT Licence.
-# The Raven-Storm Toolkit is based on the CLIF-Framework.
+# The AellyX Toolkit was programmed and developed by Taguar258.
+# The AellyX Toolkit is published under the MIT Licence.
+# The AellyX Toolkit is based on the CLIF-Framework.
 # The CLIF-Framework is programmed and developed by Taguar258.
 # The CLIF-Framework is published under the MIT Licence.
 
@@ -82,21 +82,28 @@ class Main:
 		banner_middle_color = var.C_Violet
 		banner_bottom_color = var.C_Dark_Blue
 		banner_logo = ("""C_Bo-----------------------------------------------------------C_W
-C_FIRE (
- )\\ )                                 )                C_WC_Bov.""" + var.rsversion + """C_WC_FIRE
-(()/(    )   )      (              ( /(      (       )
- /(_))( /(  /((    ))\\  (      (   )\\()) (   )(     (
-(C_MID_C_FIRE))  )(_))(_))\\  /((_) )\\ )   )\\ (C_MID_C_FIRE))/  )\\ (()\\    )\\  'C_MID
-| _ \\C_FIRE((C_MID_C_FIRE)C_MID_ _C_FIRE)((C_MID_C_FIRE)(C_MID_C_FIRE))  C_MID_C_FIRE(C_MID_C_FIRE/(  ((C_MID_C_FIRE)C_MID| |C_FIRE  ((C_MID_C_FIRE) ((C_MID_C_FIRE) C_MID_C_FIRE((C_MID_C_FIRE))C_MID
-|   // _` |\\ V / / -_)| ' \\)) (_-<|  _|/ _ \\| '_|| '  \\C_FIRE()C_BOT
-|_|_\\\\__,_| \\_/  \\___||_||_|  /__/ \\__|\\___/|_|  |_|_|_|C_W
+     ..                               ..       ..                           ..   
+  :**888H: `: .xH""             x .d88"  x .d88"    ..            .H88x.  :~)88: 
+ X   `8888k XX888                5888R    5888R    @L            x888888X ~:8888 
+'8hx  48888 ?8888         .u     '888R    '888R   9888i   .dL   ~   "8888X  %88" 
+'8888 '8888 `8888      ud8888.    888R     888R   `Y888k:*888.       X8888       
+ %888>'8888  8888    :888'8888.   888R     888R     888E  888I    .xxX8888xxxd>  
+   "8 '888"  8888    d888 '88%"   888R     888R     888E  888I   :88888888888"   
+  .-` X*"    8888    8888.+"      888R     888R     888E  888I   ~   '8888       
+    .xhx.    8888    8888L        888R     888R     888E  888I  xx.  X8888:    . 
+  .H88888h.~`8888.>  '8888c. .+  .888B .  .888B .  x888N><888' X888  X88888x.x"  
+ .~  `%88!` '888*~    "88888%    ^*888%   ^*888%    "88"  888  X88% : '%8888"    
+       `"     ""        "YP'       "%       "%            88F   "*=~    `""      
+                                                         98"                     
+                                                       ./"                       
+                                                      ~`                         
 
 C_BoStress-Testing-Toolkit by Taguar258 (c) | MIT 2020
 Based on the CLIF Framework by Taguar258 (c) | MIT 2020C_W
 
 BY USING THIS SOFTWARE, YOU MUST AGREE TO TAKE FULL RESPONSIBILITY
-FOR ANY DAMAGE CAUSED BY RAVEN-STORM.
-RAVEN-STORM SHOULD NOT SUGGEST PEOPLE TO PERFORM ILLEGAL ACTIVITIES.
+FOR ANY DAMAGE CAUSED BY AELLYX.
+AELLYX SHOULD NOT SUGGEST PEOPLE TO PERFORM ILLEGAL ACTIVITIES.
 C_Bo-----------------------------------------------------------C_W""")
 		banner_logo = banner_logo.replace("C_W", var.C_None)
 		banner_logo = banner_logo.replace("C_Bo", var.C_Bold)
@@ -139,14 +146,14 @@ C_Bo-----------------------------------------------------------C_W""")
 		event.commands(self.help, "help")
 		event.parser(self.run_debug_arg, "$")
 		event.parser(self.run_shell_arg, ".")
-		event.help(["exit", "quit", "e", "q"], "Exit Raven-Storm.")
+		event.help(["exit", "quit", "e", "q"], "Exit AellyX.")
 		event.help("help", "View all commands.")
-		event.help("upgrade", "Upgrade Raven-Storm.")
+		event.help("upgrade", "Upgrade AellyX.")
 		event.help(".", "Run a shell command.")
 		event.help("clear", "Clear the screen.")
 		event.help("record", "Save this session.")
 		event.help("load", "Redo a session using a session file.")
-		event.help("ddos", "Connect to a Raven-Storm server.")
+		event.help("ddos", "Connect to a AellyX server.")
 		event.help_comment("\nModules:")
 		event.help("l4", "Load the layer4 module. (UDP/TCP)")
 		event.help("l3", "Load the layer3 module. (ICMP)")
@@ -344,15 +351,15 @@ C_Bo-----------------------------------------------------------C_W""")
 	def upgrade():
 		try:
 			chdir("/tmp")
-			system("sudo git clone https://github.com/Taguar258/Raven-Storm.git")
-			chdir("/tmp/Raven-Storm/")
+			system("sudo git clone https://github.com/Taguar258/AellyX.git")
+			chdir("/tmp/AellyX/")
 			system("sudo bash ./install_to_bin.sh")
-			print("[i] Deleting the temporary stored Raven-Storm...")
-			system("sudo rm -rf -i /tmp/Raven-Storm/")
+			print("[i] Deleting the temporary stored AellyX...")
+			system("sudo rm -rf -i /tmp/AellyX/")
 			var.stop()
 			quit()
 		except Exception:
-			print("Cound not upgrade Raven-Storm. (Make sure to use sudo)")
+			print("Cound not upgrade AellyX. (Make sure to use sudo)")
 
 	@event.command
 	def clear():

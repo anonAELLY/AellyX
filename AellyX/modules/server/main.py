@@ -1,7 +1,7 @@
 # 2020
-# The Raven-Storm Toolkit was programmed and developed by Taguar258.
-# The Raven-Storm Toolkit is published under the MIT Licence.
-# The Raven-Storm Toolkit is based on the CLIF-Framework.
+# The AellyX Toolkit was programmed and developed by Taguar258.
+# The AellyX Toolkit is published under the MIT Licence.
+# The AellyX Toolkit is based on the CLIF-Framework.
 # The CLIF-Framework is programmed and developed by Taguar258.
 # The CLIF-Framework is published under the MIT Licence.
 
@@ -95,7 +95,7 @@ C_Bo-----------------------------------------------------------C_W""")
 		event.commands(self.help, "help")
 		event.parser(self.run_debug_arg, "$")
 		event.parser(self.run_shell_arg, ".")
-		event.help(["exit", "quit", "e", "q"], "Exit Raven-Storm.")
+		event.help(["exit", "quit", "e", "q"], "Exit AellyX.")
 		event.help("help", "View all commands.")
 		event.help(".", "Run a shell command.")
 		event.help("clear", "Clear the screen.")
@@ -197,7 +197,7 @@ C_Bo-----------------------------------------------------------C_W""")
 	@event.command
 	def run():
 		data = {"agreed": False, "commands": [""]}
-		app = flask.Flask("Raven-Storm-Server")
+		app = flask.Flask("AellyX-Server")
 		# app.config["DEBUG"] = True
 
 		@app.route('/get/com<pos>', methods=["GET", "POST"])
