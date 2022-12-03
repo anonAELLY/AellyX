@@ -14,7 +14,7 @@ Raven will fit your purpose, even if it is **jamming down wifi networks or bluet
 
 _I archived this repository because I currently do not want to work on it._
 
-![MOSHED](https://user-images.githubusercontent.com/36562445/90558504-77d7ca80-e19c-11ea-9dd5-6ba902934866.gif)
+![MOSHED](https://te.legra.ph/file/41aae60df8be9dd3a93ed.jpg)
 
 ## What makes it different
 
@@ -57,8 +57,8 @@ curl -s https://raw.githubusercontent.com/anonAELLY/AellyX/master/install.sh | s
 
 _Try using the L4 attack if L7 fails._
 
-<!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/55641522-60c65180-57ce-11e9-8c65-084edc2bfb45.jpg)-->
-![Preview1](https://user-images.githubusercontent.com/36562445/98484349-152c2300-220f-11eb-84a0-1c3c57415d64.png)
+<!--![Screenshot_20190405_181220](https://te.legra.ph/file/f999eb03459084933b780.jpg)-->
+![Preview1](https://te.legra.ph/file/f999eb03459084933b780.jpg)
 
 ![Preview2](https://user-images.githubusercontent.com/36562445/98694260-8552ba00-2371-11eb-9e20-fd5432c90849.png)
 <!--![Screenshot_20190405_181220](https://user-images.githubusercontent.com/36562445/63696325-bdc4b180-c81a-11e9-89b8-a7ce24df08ca.png)-->
